@@ -121,6 +121,12 @@ A aplicação foi implantada no **AWS Elastic Kubernetes Service (EKS)**, garant
    ```  
     ![services](imgs\services.png)
 
+5. **Aplicação**
+
+A aplicação está acessível publicamente na seguinte URL:
+
+http://a2106d20f94614475ac81799589167c3-2084239673.us-west-2.elb.amazonaws.com
+
 ## Vídeo de execução da aplicação:
 
 https://youtu.be/fwArwSr6miU
