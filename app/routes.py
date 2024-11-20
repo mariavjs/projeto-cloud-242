@@ -76,8 +76,8 @@ def consultar_data(token: str):
         decoded = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
     
        
-        return  get_random_dog()
+        return get_random_dog()
     
     except jwt.InvalidTokenError:
-        raise {"error": "token inválido"}
+        raise HTTPException(status_code=403, detail="JWT Inválido")
     
