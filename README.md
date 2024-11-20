@@ -113,11 +113,13 @@ A aplicação foi implantada no **AWS Elastic Kubernetes Service (EKS)**, garant
    ```bash  
    kubectl get pods  
    ```  
+   ![pods](imgs\pods.png)
 
    Verificação dos serviços:  
    ```bash  
    kubectl get svc  
    ```  
+    ![services](imgs\services.png)
 
 ## Vídeo de execução da aplicação:
 
