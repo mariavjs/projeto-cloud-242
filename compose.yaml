@@ -2,7 +2,8 @@
 services:
 
   app:
-    build: ./app
+    #build: ./app
+    image: mariavjs/projeto-cloud-242:latest
     ports:
       - "8000:8000"
     environment:
@@ -18,5 +19,5 @@ services:
       POSTGRES_USER: ${POSTGRES_USER:-projeto}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-projeto}
       POSTGRES_DB: ${POSTGRES_DB:-projeto}
-    ports:
-      - "5432:5432"
+    #ports:
+      # - "5432:5432"
